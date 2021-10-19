@@ -5,6 +5,8 @@ create a folder, run npm init -y, then npm install cypress --save-dev
 open package.json and modify test script  to read "cypress open"
 now running npm test will shortcut the command npx cypress open
 
+npm install --save-dev @testing-library/react
+installs react testing library as a dev dependency in the project
 
 A solid test generally covers 3 phases:
 
